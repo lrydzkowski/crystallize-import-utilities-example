@@ -5,9 +5,10 @@ Simple Node.js project for testing [Crystallize](https://crystallize.com/) [impo
 ## How to run
 
 1. Prepare `.env` file based on `.env.sample`.
-2. Update product information in `index.ts`.
-3. Run the following command `npm run dev`.
-4. Send a request:
+2. Run `npm install`.
+3. Update product information in `index.ts`.
+4. Run the following command `npm run dev`.
+5. Send a request:
 
     ```text
     GET http://localhost:5001
