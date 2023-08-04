@@ -5,8 +5,9 @@ Simple Node.js project for testing [Crystallize](https://crystallize.com/) [impo
 ## How to run
 
 1. Prepare `.env` file based on `.env.sample`.
-2. Run the following command `npm run dev`.
-3. Send a request:
+2. Update product information in `index.ts`.
+3. Run the following command `npm run dev`.
+4. Send a request:
 
     ```text
     GET http://localhost:5001
@@ -22,7 +23,7 @@ Simple Node.js project for testing [Crystallize](https://crystallize.com/) [impo
 1. Run a request responsible for creating an initial memory dump.
 2. Wait 2 seconds.
 3. Run the iteration of tests 10 times. Each iteration contains:
-    1. Send 10 requests to an endpoints responsible for updating a product in Crystallize by import-utilities library.
+    1. Send 10 requests to an endpoint responsible for updating a product in Crystallize by import-utilities library.
     2. Wait 30 seconds.
     3. Send a request responsible for running garbage collection.
     4. Wait 2 seconds.
