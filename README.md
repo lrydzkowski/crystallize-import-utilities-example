@@ -2,17 +2,12 @@
 
 Simple Node.js project for testing [Crystallize](https://crystallize.com/) [import-utilities](https://github.com/CrystallizeAPI/import-utilities).
 
-## How to run
+## How to run it
 
 1. Prepare `.env` file based on `.env.sample`.
 2. Run `npm install`.
 3. Update product information in `index.ts`.
 4. Run the following command `npm run dev`.
-5. Send a request:
-
-    ```text
-    GET http://localhost:5001
-    ```
 
 ## How to test it
 
